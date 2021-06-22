@@ -1,0 +1,14 @@
+version: '3'
+services:
+  mlb-player-digital-engagement-forecasting:
+    build: ./
+    image: mlb-player-digital-engagement-forecasting
+    container_name: mlb-player-digital-engagement-forecasting
+    user: root
+    volumes:
+      - $PWD:/analysis
+    tty: true
+    deploy:
+      resources:
+        limits:
+          memory: 5g
