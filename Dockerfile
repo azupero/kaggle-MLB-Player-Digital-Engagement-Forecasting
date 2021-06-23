@@ -7,5 +7,5 @@ RUN pip install -U pip poetry
 WORKDIR /analysis
 COPY poetry.lock pyproject.toml ./
 
-RUN poetry config virtualenvs.in-project true
+RUN poetry config virtualenvs.in-project false
 RUN poetry install

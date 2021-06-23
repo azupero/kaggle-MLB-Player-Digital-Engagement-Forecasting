@@ -19,6 +19,7 @@ scikit-learn = "^0.24.2"
 matplotlib-venn = "^0.11.6"
 sweetviz = "^2.1.2"
 kaggle = "^1.5.12"
+lightgbm = "^3.2.1"
 
 [tool.poetry.dev-dependencies]
 

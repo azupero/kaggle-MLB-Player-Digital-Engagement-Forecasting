@@ -24,3 +24,7 @@ Submissionsは、MCMAE（Mean Column-Wise Mean Absolute Error）で評価され�
 ### 2021-06-22
 - `nb003`
     - [MLB lightGBM Starter Dataset&Code[en, ja]](https://www.kaggle.com/columbia2131/mlb-lightgbm-starter-dataset-code-en-ja)
+### 2021-06-23
+- TimeSeriesAPIにまだ慣れていないので`nb003`の推論部分をじっくり読んだ
+    - 一行ずつ渡される？
+    - 一部のカラムには欠損が含まれてるっぽい
