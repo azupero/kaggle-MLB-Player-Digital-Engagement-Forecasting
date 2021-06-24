@@ -28,3 +28,7 @@ Submissionsは、MCMAE（Mean Column-Wise Mean Absolute Error）で評価され�
 - TimeSeriesAPIにまだ慣れていないので`nb003`の推論部分をじっくり読んだ
     - 一行ずつ渡される？
     - 一部のカラムには欠損が含まれてるっぽい
+### 2021-06-24
+- `nb004`
+    - targetのlag特徴量のみを使ってTimeSeriesAPIに慣れる
+        - inference時に特徴量を更新する必要があるため
