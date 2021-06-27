@@ -20,8 +20,13 @@ matplotlib-venn = "^0.11.6"
 sweetviz = "^2.1.2"
 kaggle = "^1.5.12"
 lightgbm = "^3.2.1"
+category-encoders = "^2.2.2"
 
 [tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+flake8 = "^3.9.2"
+black = "^21.6b0"
+isort = "^5.9.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

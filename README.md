@@ -32,3 +32,8 @@ Submissionsは、MCMAE（Mean Column-Wise Mean Absolute Error）で評価され�
 - `nb004`
     - targetのlag特徴量のみを使ってTimeSeriesAPIに慣れる
         - inference時に特徴量を更新する必要があるため
+### 2021-06-27
+- `nb004`
+    - targetはinference時は提供されないのでlag特徴量は作れなかった
+    - train setの期間内のユーザー毎の各targetの統計量を特徴量とした
+    - target2のエラーが一番大きくここを改善することが一番インパクトでかそう
