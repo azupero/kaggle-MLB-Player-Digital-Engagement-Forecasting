@@ -37,3 +37,9 @@ Submissionsは、MCMAE（Mean Column-Wise Mean Absolute Error）で評価され�
     - targetはinference時は提供されないのでlag特徴量は作れなかった
     - train setの期間内のユーザー毎の各targetの統計量を特徴量とした
     - target2のエラーが一番大きくここを改善することが一番インパクトでかそう
+### 2021-06-28
+- `nb005`
+    - データセットのカラムの説明をまとめた
+### 2021-06-29
+- `nb006`
+    - `nb004`を元に特徴量クラスを足していく
