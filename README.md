@@ -60,5 +60,15 @@ Submissionsは、MCMAE（Mean Column-Wise Mean Absolute Error）で評価され�
     - もろもろのバグをデバッグ
         - test_dfはindexがdate
         - LightGBMの`objective`をずっと`regression`にしていたので公開notebookと再現がとれなかった -> `mae`に変更
+        - test時のdateをsubmissionのdate_playerIdから作っていたためErrorになっていた？
 - `nb007`
     - `PlayersLabelEncodingBlock`, `PlayerBoxScoresCountBlock`追加
+### 2021-07-05
+- 推論時のデバッグの続き
+    - 色々修正した
+    - `RostersLabelEncoding`時に推論時のtest set shapeが合わない
+        - Running時にexampleの0426-0430で推論するためデータセット更新時に重複させてconcatしていたため
+### 2021-07-06
+- `nb008`
+    - `TeamBoxScoresCountBlock`を追加
+    - Target2の改善のアイデアを模索するためにも近いうちに大谷選手に絞ってEDAしたい
