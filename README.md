@@ -72,3 +72,10 @@ Submissionsは、MCMAE（Mean Column-Wise Mean Absolute Error）で評価され�
 - `nb008`
     - `TeamBoxScoresCountBlock`を追加
     - Target2の改善のアイデアを模索するためにも近いうちに大谷選手に絞ってEDAしたい
+    - Target2はFeature Importanceから試合成績に関する特徴量が他のtargetと比べて上位にランクインしている印象
+- `nb009`
+    - `GamesCountBlock`追加
+    - ちょいLB下がった
+### 2021-07-07
+- `nb010`
+    - `PlayerTwitterFollowerAggregateBlock`追加
