@@ -79,3 +79,7 @@ Submissionsは、MCMAE（Mean Column-Wise Mean Absolute Error）で評価され�
 ### 2021-07-07
 - `nb010`
     - `PlayerTwitterFollowerAggregateBlock`追加
+### 2021-07-08
+- ある時点での今シーズンの打撃成績やタイトル争いみたいな特徴量を作りたい
+- 予測対象のplayerに絞ってみてもいいかも
+- targetのaggregateをもう少し細かくしてもいいかも。対戦チーム別にするとか年別とか。
