@@ -80,6 +80,12 @@ Submissionsは、MCMAE（Mean Column-Wise Mean Absolute Error）で評価され�
 - `nb010`
     - `PlayerTwitterFollowerAggregateBlock`追加
 ### 2021-07-08
-- ある時点での今シーズンの打撃成績やタイトル争いみたいな特徴量を作りたい
+- ある時点での今シーズンの打撃成績やタイトル争いみたいな特徴量を作りたい(OPSとか)
 - 予測対象のplayerに絞ってみてもいいかも
 - targetのaggregateをもう少し細かくしてもいいかも。対戦チーム別にするとか年別とか。
+- セイバーメトリクスを算出
+- 最近はバレル%とかいうのもあるらしい
+- 打席と打数の違いを調べた。打席を使うシーンは例えば規定打席の算出とかがある。
+- 指標については以下のサイトが参考になる
+    - [用語解説](https://baseballconcrete.web.fc2.com/glossary.html)
+    - [【保存版】セイバーメトリクス指標一覧【基本から分かりやすく解説】](https://takker04035555.com/saber-list/)
