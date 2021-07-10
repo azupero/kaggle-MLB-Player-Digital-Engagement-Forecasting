@@ -89,3 +89,7 @@ Submissionsは、MCMAE（Mean Column-Wise Mean Absolute Error）で評価され�
 - 指標については以下のサイトが参考になる
     - [用語解説](https://baseballconcrete.web.fc2.com/glossary.html)
     - [【保存版】セイバーメトリクス指標一覧【基本から分かりやすく解説】](https://takker04035555.com/saber-list/)
+### 2021-07-10
+- `nb011`
+    - 大谷選手を例にしてシーズン毎の成績を特徴量化してみた
+    - 選手毎・日毎にaggregateするのでtest時にどうupdateしていくかが課題
