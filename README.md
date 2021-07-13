@@ -93,3 +93,14 @@ Submissionsは、MCMAE（Mean Column-Wise Mean Absolute Error）で評価され�
 - `nb011`
     - 大谷選手を例にしてシーズン毎の成績を特徴量化してみた
     - 選手毎・日毎にaggregateするのでtest時にどうupdateしていくかが課題
+### 2021-07-13
+- `nb013`
+    - LBが悪化している原因をずっと探していたが`PlayerStatsBlock`で集約テーブルをfitメソッド内に実装していたためだった
+    - update_blockにするかtransformメソッドで処理する必要がある
+### 2021-07-14
+- `nb014`
+    - `TargetAggregateBlock`にprobを追加
+    - `AwardsCountBlock`も追加。FEみた感じだとTop50に食い込むインパクトはなさそう。
+    - 公開notebookは2021年4月以降、つまり先月のデータでaggregateしているのでそれにならって修正
+    - 直近数ヶ月の月毎のaggregateも効果あるだろうか？
+    - 1年前の同じ月とかも
