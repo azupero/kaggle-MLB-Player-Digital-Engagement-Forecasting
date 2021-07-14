@@ -104,3 +104,6 @@ Submissionsは、MCMAE（Mean Column-Wise Mean Absolute Error）で評価され�
     - 公開notebookは2021年4月以降、つまり先月のデータでaggregateしているのでそれにならって修正
     - 直近数ヶ月の月毎のaggregateも効果あるだろうか？
     - 1年前の同じ月とかも
+- `nb015`
+    - `TargetAggregateBlockの改良
+        - 過去3ヶ月で月別にaggregate
