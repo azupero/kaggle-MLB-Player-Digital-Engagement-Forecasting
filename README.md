@@ -107,3 +107,14 @@ Submissionsは、MCMAE（Mean Column-Wise Mean Absolute Error）で評価され�
 - `nb015`
     - `TargetAggregateBlockの改良
         - 過去3ヶ月で月別にaggregate
+- 選手の年齢属性を加えたい
+- `nb016`
+    - test setに登場する選手のみで学習してみたがCVが悪化したのでやめた
+    - `nb014`をベースにコメントアウトしていたブロックを追加
+    - target2とtarget4は相関がありそう。互いの四則演算が効くかもしれない
+    - フォロワーもtarget同様直近の月のみにしてもいいかも
+    - target2はStandings由来の特徴量も効いているので対戦相手との相性を表現してもいい
+### 2021-07-15
+- `nb017`
+    - `PlayersLabelEncodingBlock`に`playerAge`を追加
+    - target2とtarget4をかけたもの、割った物を追加
