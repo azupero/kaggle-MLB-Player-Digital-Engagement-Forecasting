@@ -118,3 +118,6 @@ Submissionsは、MCMAE（Mean Column-Wise Mean Absolute Error）で評価され�
 - `nb017`
     - `PlayersLabelEncodingBlock`に`playerAge`を追加
     - target2とtarget4をかけたもの、割った物を追加
+### 2021-07-20
+- `nb018`
+    - `Datetime2trigonometricEncodingBlock`でday, dayofweekの周期性を表現するためにsin, cosに変換
