@@ -121,3 +121,8 @@ Submissionsは、MCMAE（Mean Column-Wise Mean Absolute Error）で評価され�
 ### 2021-07-20
 - `nb018`
     - `Datetime2trigonometricEncodingBlock`でday, dayofweekの周期性を表現するためにsin, cosに変換
+### 2021-07-21
+- `train_updated.csv`が追加された。
+    - 2021-07-17までのデータが拡張されLBはあまり参考にはならなくなった。
+    - 手元で5月のスコアを確認できるようになった。
+    - 5・6月でCVできる？
